@@ -1,14 +1,9 @@
-html {
-  background: url(bg.jpg) no-repeat center center fixed;
+body {
+  background: url(bg.jpg) no-repeat;
   background-size: cover;
 }
 
 .mainOverlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
   width: 100%;
   height: 100%;
   background-color: rgba(33, 27, 27, 0.5);
@@ -68,12 +63,283 @@ nav div {
   margin: 0 0 0 0;
 }
 
-section {
-  width: 100%;
-  background-color: white;
-  height: 100px;
+.top-image {
+  background-image: url('grid.png'), url('top-image.png');
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: 146%, 173%;
+  background-position-y: 22%;
+  background-position-x: 40%;
+  border: 4px solid white;
 }
 
-section img {
+.logo {
+  position: absolute;
+}
+
+.logo img {
+  width: 300px;
+  height: 200px;
+  padding: 30px 3px 3px 16px;
+}
+
+section {
+  margin-top: 2%;
+}
+
+.col3 {
+  width: 32.8%;
+  display: inline-block;
+  vertical-align: top;
+  background-color: white;
+  margin: 0 auto;
+  border-bottom: 3px solid grey;
+}
+
+.col3 h1 {
+  font-size: 15px;
+  padding-left: 5%;
+  padding-top: 2%;
+}
+
+.col3 h6 {
+  font-size: 8px;
+  padding-left: 4%;
+  margin: 0;
+  color: grey;
+}
+
+.col3 p {
+  font-size: 8px;
+  line-height: 2;
+  padding-left: 4%;
+}
+
+.col3 h5 {
+  font-size: 10px;
+  padding-left: 27%;
+  color: red;
+}
+
+.lastone {
+  padding-bottom: .2%;
+}
+
+aside {
+  margin-top: 2%;
+}
+
+.section-images {
+  width: 100%;
+  margin: 0;
+  padding-top: 2%;
+}
+
+.leftside {
+  width: 29.2%;
+  display: inline-block;
+  margin: 0;
+}
+
+.rightside {
+  width: 66%;
+  display: inline-block;
+  margin: 0;
+  padding-right: .5%;
+}
+
+.sideimage {
+  width: 106%;
+  border: 4px solid white;
+  margin-left: 1%;
+  height: 300px;
+}
+
+.sideimage {
+  background-image: url('sk8er-2.png');
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: 293%;
+  background-position-y: 25%;
+  background-position-x: 73%;
+}
+
+.image2 {
+  width: 46.2%;
+  display: inline-block;
+  vertical-align: top;
+  background-color: black;
+  border: 4px solid white;
+  margin-left: 1%;
+  height: 130px;
+}
+
+.lance {
+  background-image: url('sk8er-4.png');
+  height: 130px;
+  background-repeat: no-repeat;
+  background-size: 159%;
+  background-position-y: 32%;
+  background-position-x: 100%;
+}
+
+.rod {
+  background-image: url('sk8er-3.png');
+  height: 130px;
+  background-repeat: no-repeat;
+  background-size: 152%;
+  background-position-y: 25%;
+  background-position-x: 17%;
+}
+
+.bottomimage {
   width: 98%;
+  display: inline-block;
+  background-color: black;
+  border: 4px solid white;
+  margin-top: 2%;
+  height: 155px;
+}
+
+.steve {
+  background-image: url('sk8er-1.png');
+  height: 155px;
+  background-repeat: no-repeat;
+  background-size: 132%;
+  background-position-y: 63%;
+  background-position-x: 20%;
+}
+
+.image2 h1 {
+  color: white;
+  position: absolute;
+  top: 662px;
+  margin-left: 17px;
+  margin-top: 0px;
+  text-align: center;
+  font-size: 27px;
+}
+
+.bottomimage h1 {
+  color: white;
+  position: absolute;
+  top: 662px;
+  margin-left: 68px;
+  margin-top: 180px;
+  text-align: center;
+  font-size: 27px;
+}
+
+.leftside h1 {
+  color: white;
+  position: absolute;
+  top: 662px;
+  margin-left: 20px;
+  margin-top: 95px;
+  text-align: center;
+  font-size: 27px;
+}
+
+.skateboards ul {
+  background-color: white;
+  margin: 0 auto;
+  border-bottom: 3px solid grey;
+  list-style-type: none;
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.skateboards li {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+.skateboards ul img {
+  width: 43px;
+  height: 188px;
+  padding: 10px 0px 10px 11px;
+  margin: 0;
+}
+
+.col2 {
+  background-color: white;
+  width: 45.62%;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 2%;
+  padding: 2%;
+  height: 200px;
+}
+
+.col2 h1 {
+  font-size: 12px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+}
+
+.col2 p {
+  font-size: 9px;
+  line-height: 2;
+}
+
+.col2 img {
+  padding-top: 2%;
+}
+
+.col2 img.desaturate {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.name {
+  color: #C0C0C0;
+  padding: 2%;
+  border-left: 3px solid #888484;
+  border-top: 3px solid #888484;
+  border-bottom: 1px solid #888484;
+  border-right: 1px solid #888484;
+  padding: 3px 3px 3px 6px;
+}
+
+.email {
+  color: #C0C0C0;
+  padding: 2%;
+  border-left: 3px solid #888484;
+  border-top: 3px solid #888484;
+  border-bottom: 1px solid #888484;
+  border-right: 1px solid #888484;
+  padding: 3px 3px 3px 6px;
+}
+
+.message {
+  color: #C0C0C0;
+  padding: 2%;
+  border-left: 3px solid #888484;
+  border-top: 3px solid #888484;
+  border-bottom: 1px solid #888484;
+  border-right: 1px solid #888484;
+  padding-bottom: 50px;
+}
+
+.submit {
+  border: 1px solid red;
+  background-color: red;
+  width: 60%;
+  text-align: center;
+  float: right;
+  color: white;
+}
+
+.rightone {
+  margin-left: -2%;
+  padding-right: 4%;
+}
+
+footer {
+  margin-bottom: 3%;
 }
