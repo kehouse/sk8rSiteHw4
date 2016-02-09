@@ -1,0 +1,23 @@
+header {
+  width: 100%;
+  padding-top: 2%;
+    a {
+      padding-right: 8%;
+      padding-left: 61%;
+      text-decoration: none;
+      color: white;
+    }
+    img {
+      border-bottom: $greyborder-bottom;
+    }
+    ul {
+      list-style-type: none;
+      display: inline-block;
+      vertical-align: top;
+      margin: 0;
+      padding: 0;
+    }
+    li {
+      display: inline-block;
+    }
+}

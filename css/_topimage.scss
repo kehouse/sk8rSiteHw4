@@ -1,0 +1,18 @@
+.top-image {
+  background-image: url('../images/grid.png'), url('../images/top-image.png');
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: 146%, 173%;
+  background-position-y: 22%;
+  background-position-x: 40%;
+  border: 4px solid white;
+}
+
+.logo {
+  position: absolute;
+    img {
+      width: 300px;
+      height: 200px;
+      padding: 30px 3px 3px 16px;
+    }
+}

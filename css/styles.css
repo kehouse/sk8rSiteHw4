@@ -73,7 +73,7 @@ nav li:hover {
 }
 
 .top-image {
-  background-image: url('grid.png'), url('top-image.png');
+  background-image: url('../images/grid.png'), url('../images/top-image.png');
   height: 250px;
   background-repeat: no-repeat;
   background-size: 146%, 173%;

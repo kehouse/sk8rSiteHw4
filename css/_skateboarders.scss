@@ -1,0 +1,167 @@
+aside {
+  margin-top: 2%;
+}
+
+.section-images {
+  width: 100%;
+  margin: 0;
+  padding-top: 2%;
+}
+
+.leftside {
+  width: 29.2%;
+  display: inline-block;
+  margin: 0;
+  transition: all .4s ease-in-out;
+    h1 {
+      color: white;
+      position: absolute;
+      top: 662px;
+      margin-left: 21px;
+      margin-top: 85px;
+      text-align: center;
+      font-size: 27px;
+      font-family: sans-serif;
+      font-weight: bolder;
+    }
+}
+
+.leftside:hover {
+  transform: scale(1.35);
+}
+
+.rightside {
+  width: 66%;
+  display: inline-block;
+  margin: 0;
+  padding-right: .5%;
+}
+
+.sideimage {
+  width: 106%;
+  border: 4px solid white;
+  margin-left: 1%;
+  height: 300px;
+}
+
+.sideimage {
+  background-image: url('../images/sk8er-2.png');
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: 293%;
+  background-position-y: 25%;
+  background-position-x: 73%;
+}
+
+.image2 {
+  width: 46.2%;
+  display: inline-block;
+  vertical-align: top;
+  background-color: black;
+  border: 4px solid white;
+  margin-left: 1%;
+  height: 130px;
+  transition: all .4s ease-in-out;
+    h1 {
+      color: white;
+      position: absolute;
+      top: 662px;
+      margin-left: 17px;
+      margin-top: 0px;
+      text-align: center;
+      font-size: 27px;
+      font-family: sans-serif;
+      font-weight: bolder;
+    }
+    h2 {
+      color: white;
+      position: absolute;
+      top: 662px;
+      margin-left: 36px;
+      margin-top: 0px;
+      text-align: center;
+      font-size: 27px;
+      font-family: sans-serif;
+      font-weight: bolder;
+    }
+}
+
+.image2:hover {
+  transform: scale(1.35);
+}
+
+.lance {
+  background-image: url('../images/sk8er-4.png');
+  height: 130px;
+  background-repeat: no-repeat;
+  background-size: 159%;
+  background-position-y: 32%;
+  background-position-x: 100%;
+}
+
+.rod {
+  background-image: url('../images/sk8er-3.png');
+  height: 130px;
+  background-repeat: no-repeat;
+  background-size: 152%;
+  background-position-y: 25%;
+  background-position-x: 17%;
+}
+
+.bottomimage {
+  width: 98%;
+  display: inline-block;
+  background-color: black;
+  border: 4px solid white;
+  margin-top: 2%;
+  height: 155px;
+  transition: all .4s ease-in-out;
+    h1 {
+      color: white;
+      position: absolute;
+      top: 662px;
+      margin-left: 68px;
+      margin-top: 170px;
+      text-align: center;
+      font-size: 27px;
+      font-family: sans-serif;
+      font-weight: bolder;
+    }
+}
+
+.bottomimage:hover {
+  transform: scale(1.35);
+}
+
+.steve {
+  background-image: url('../images/sk8er-1.png');
+  height: 155px;
+  background-repeat: no-repeat;
+  background-size: 132%;
+  background-position-y: 63%;
+  background-position-x: 20%;
+}
+
+#triangle {
+  position: absolute;
+  left: 16.3%;
+  top: 140%;
+  width: 0px;
+  height: 0px;
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+  border-left: 25px solid #B32236;
+}
+
+#rectangle {
+  position: absolute;
+  left: 5%;
+  top: 140%;
+  width: 131px;
+  height: 50px;
+  background: #B32236;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  border-bottom: 3px solid grey;
+}

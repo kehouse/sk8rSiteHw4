@@ -1,6 +1,18 @@
+@import '_elements';
+@import '_body';
+@import '_header';
+@import '_nav';
+@import '_topimage';
+@import '_col3';
+@import '_skateboarders';
+@import '_skateboards';
+@import '_contactus';
+@import '_moblie';
+@import '_tablet';
 
-body {
-  background: url(bg.jpg) no-repeat;
+
+/*body {
+  background: url(../images/bg.jpg) no-repeat;
   background-size: cover;
 }
 
@@ -74,7 +86,7 @@ nav li:hover {
 }
 
 .top-image {
-  background-image: url('grid.png'), url('top-image.png');
+  background-image: url('../images/grid.png'), url('../images/top-image.png');
   height: 250px;
   background-repeat: no-repeat;
   background-size: 146%, 173%;
@@ -178,7 +190,7 @@ aside {
 }
 
 .sideimage {
-  background-image: url('sk8er-2.png');
+  background-image: url('../images/sk8er-2.png');
   height: 300px;
   background-repeat: no-repeat;
   background-size: 293%;
@@ -202,7 +214,7 @@ aside {
 }
 
 .lance {
-  background-image: url('sk8er-4.png');
+  background-image: url('../images/sk8er-4.png');
   height: 130px;
   background-repeat: no-repeat;
   background-size: 159%;
@@ -211,7 +223,7 @@ aside {
 }
 
 .rod {
-  background-image: url('sk8er-3.png');
+  background-image: url('../images/sk8er-3.png');
   height: 130px;
   background-repeat: no-repeat;
   background-size: 152%;
@@ -234,7 +246,7 @@ aside {
 }
 
 .steve {
-  background-image: url('sk8er-1.png');
+  background-image: url('../images/sk8er-1.png');
   height: 155px;
   background-repeat: no-repeat;
   background-size: 132%;
@@ -444,7 +456,4 @@ footer {
   font-size: 14px;
   text-align: center;
   border-bottom: 3px solid grey;
-}
-
-@import 'moblie';
-@import 'tablet';
+}*/
