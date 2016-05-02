@@ -42,14 +42,16 @@ nav {
     font-size: 12px;
     color: white;
     margin: 0;
-    padding: 2% 0% 0% .5%;
+    padding: 0;
     width: 100%; }
   nav li {
     display: inline-block;
     background-color: #B32236;
+    border-bottom: 3px solid grey;
     margin: 0% 1% 0% 0%;
-    padding: 1% 5% 1% 5%;
-    border-bottom: 3px solid grey; }
+    padding: 1% 0% 1% 0%;
+    width: 23.69%;
+    text-align: center; }
 
 nav li:hover {
   background-color: #FFCB07; }
@@ -78,6 +80,7 @@ section {
   display: inline-block;
   vertical-align: top;
   background-color: white;
+  height: 235px;
   margin: 0 auto;
   border-bottom: 3px solid grey; }
   .col3 h1 {
@@ -101,10 +104,8 @@ section {
     padding-left: 27%;
     color: #B32236; }
 
-.lastone {
-  padding-bottom: 2.2%; }
-  .lastone h5 {
-    padding-top: 2%; }
+.lastone h5 {
+  padding-top: 2%; }
 
 aside {
   margin-top: 2%; }
@@ -122,9 +123,9 @@ aside {
   .leftside h1 {
     color: white;
     position: absolute;
-    top: 662px;
-    margin-left: 21px;
-    margin-top: 85px;
+    top: 138%;
+    margin-left: 3.5%;
+    margin-top: -14%;
     text-align: center;
     font-size: 27px;
     font-family: sans-serif;
@@ -165,9 +166,9 @@ aside {
   .image2 h1 {
     color: white;
     position: absolute;
-    top: 662px;
-    margin-left: 17px;
-    margin-top: 0px;
+    top: 98%;
+    margin-left: 3%;
+    margin-top: 0;
     text-align: center;
     font-size: 27px;
     font-family: sans-serif;
@@ -175,9 +176,9 @@ aside {
   .image2 h2 {
     color: white;
     position: absolute;
-    top: 662px;
-    margin-left: 36px;
-    margin-top: 0px;
+    top: 98%;
+    margin-left: 4%;
+    margin-top: 0;
     text-align: center;
     font-size: 27px;
     font-family: sans-serif;
@@ -213,9 +214,9 @@ aside {
   .bottomimage h1 {
     color: white;
     position: absolute;
-    top: 662px;
-    margin-left: 68px;
-    margin-top: 170px;
+    top: 100%;
+    margin-left: 10%;
+    margin-top: 13%;
     text-align: center;
     font-size: 27px;
     font-family: sans-serif;
@@ -270,9 +271,9 @@ aside {
     margin: 0; }
 
 .skateboards ul img {
-  width: 43px;
-  height: 188px;
-  padding: 10px 0px 10px 11px;
+  width: 70%;
+  height: 8%;
+  padding: 20% 0% 20% 14%;
   margin: 0; }
 
 .col2 {
@@ -409,11 +410,11 @@ footer {
     width: 100%;
     margin-bottom: 2%; }
   .image2 h1 {
-    top: 1158px;
-    margin-left: 56px; }
+    top: 178%;
+    margin-left: 24%; }
   .image2 h2 {
-    top: 1306px;
-    margin-left: 74px; }
+    top: 200%;
+    margin-left: 25%; }
   .rightside {
     width: 97%; }
   .bottomimage {
@@ -421,13 +422,13 @@ footer {
     width: 100%;
     margin-left: 1%; }
   .bottomimage h1 {
-    top: 1287px;
+    top: 218%;
     margin-left: 24px; }
   .leftside {
     width: 91%; }
   .leftside h1 {
-    top: 1608px;
-    margin-left: 58px; }
+    top: 267%;
+    margin-left: 20%; }
   .skateboards ul img {
     width: 14.8px;
     height: 85px;
@@ -460,19 +461,17 @@ footer {
     border-top: 0px;
     border-bottom: 0px;
     border-left: 0px; }
-  .lastone {
-    padding-bottom: 2.2%; }
   .image2 h1 {
-    top: 672px;
+    top: 73%;
     margin-left: 32px; }
   .image2 h2 {
-    top: 675px;
+    top: 73%;
     margin-left: 50px; }
   .bottomimage h1 {
-    top: 686px;
+    top: 80%;
     margin-left: 92px; }
   .leftside h1 {
-    top: 674px;
+    top: 90%;
     margin-left: 36px; }
   .skateboards ul img {
     width: 53px;

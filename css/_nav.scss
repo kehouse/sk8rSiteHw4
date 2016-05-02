@@ -9,15 +9,17 @@ nav {
       font-size: 12px;
       color: white;
       margin: 0;
-      padding: 2% 0% 0% .5%;
+      padding: 0;
       width: 100%;
     }
     li {
       display: inline-block;
       background-color: $redbackground-color;
-      margin: 0% 1% 0% 0%;
-      padding: 1% 5% 1% 5%;
       border-bottom: $greyborder-bottom;
+      margin: 0% 1% 0% 0%;
+      padding: 1% 0% 1% 0%;
+      width: 23.69%;
+      text-align: center;
     }
 }
 
